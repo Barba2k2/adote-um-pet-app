@@ -2,7 +2,7 @@ import 'package:design_system/design_system.dart';
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 
-import '../../../../../routes.dart';
+import '../../../../../../routes.dart';
 
 part 'widgets/choose_pet_type_row.dart';
 
@@ -14,7 +14,7 @@ class DonateInfoPage extends StatefulWidget {
 }
 
 class _DonateInfoPageState extends State<DonateInfoPage> {
-  TextEditingController nomePetController = TextEditingController();
+  final _nomePetController = TextEditingController();
   bool isButtonSelected = false;
 
   @override
@@ -27,7 +27,7 @@ class _DonateInfoPageState extends State<DonateInfoPage> {
         userName: 'Mariana Oliveira',
         userLocation: 'Sao Paulo - SP',
         userImage: AppImages.catChoose,
-        onAdoptTap: () => router.go('/donate-info'),
+        onAdoptTap: () => router.go('/adopt-info'),
         onAccountTap: () {},
         onDonateTap: () {},
         onPetinhaTap: () {},
@@ -62,7 +62,7 @@ class _DonateInfoPageState extends State<DonateInfoPage> {
             ),
             const Gap(10),
             TextInputGrayDs(
-              controller: nomePetController,
+              controller: _nomePetController,
             ),
             const Gap(12),
             _ChoosePetTypeRow(),
