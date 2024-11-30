@@ -9,6 +9,7 @@ class PrimaryButtonDs extends StatelessWidget {
   final Color foregroundColor;
   final double height;
   final double width;
+  final double? borderRadius;
 
   const PrimaryButtonDs({
     super.key,
@@ -18,6 +19,7 @@ class PrimaryButtonDs extends StatelessWidget {
     this.foregroundColor = Colors.white,
     this.height = 48,
     this.width = 220,
+    this.borderRadius,
   });
 
   @override
@@ -29,9 +31,15 @@ class PrimaryButtonDs extends StatelessWidget {
         fixedSize: Size(width, height),
         backgroundColor: backgroundColor,
         foregroundColor: foregroundColor,
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(borderRadius ?? 22),
+        ),
       ),
       onPressed: onPressed,
-      child: Text(title, style: theme.textTheme.labelMedium),
+      child: Text(
+        title,
+        style: theme.textTheme.labelMedium,
+      ),
     );
   }
 }
