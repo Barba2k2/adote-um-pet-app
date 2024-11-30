@@ -16,14 +16,14 @@
 
 ## 🔗 Table of Contents
 
-I. [📍 Overview](#-overview)
-II. [👾 Features](#-features)
-III. [📁 Project Structure](#-project-structure)
-IV. [🚀 Getting Started](#-getting-started)
-V. [📌 Project Roadmap](#-project-roadmap)
-VI. [🔰 Contributing](#-contributing)
-VII. [🎗 License](#-license)
-VIII. [🙌 Acknowledgments](#-acknowledgments)
+I. [📍 Overview](#-overview) <br/>
+II. [👾 Features](#-features) <br/>
+III. [📁 Project Structure](#-project-structure) <br/>
+IV. [🚀 Getting Started](#-getting-started) <br/>
+V. [📌 Project Roadmap](#-project-roadmap) <br/>
+VI. [🔰 Contributing](#-contributing) <br/>
+VII. [🎗 License](#-license) <br/>
+VIII. [🙌 Acknowledgments](#-acknowledgments) 
 
 ---
 
@@ -1180,12 +1180,13 @@ The "adote-um-pet-app" is a Flutter-based mobile application designed to streaml
 
 Before getting started with adote-um-pet-app, ensure your runtime environment meets the following requirements:
 
-- **Programming Language:** Dart
+- **Programming Language:** Dart/Flutter
+- **Flutter Version:** _3.24.1 or higher_
 
 
 ### ⚙️ Installation
 
-Install adote-um-pet-app using one of the following methods:
+Install adote-um-pet-app using of the following methods:
 
 **Build from source:**
 
@@ -1194,12 +1195,12 @@ Install adote-um-pet-app using one of the following methods:
 ❯ git clone https://github.com/tecrodrigocastro/adote-um-pet-app
 ```
 
-2. Navigate to the project directory:
+1. Navigate to the project directory:
 ```sh
 ❯ cd adote-um-pet-app
 ```
 
-3. Install the project dependencies:
+1. Install the project dependencies:
 
 
 **Using `pub`** &nbsp; [<img align="center" src="https://img.shields.io/badge/Dart-0175C2.svg?style={badge_style}&logo=dart&logoColor=white" />](https://dart.dev/)
